@@ -292,7 +292,12 @@ background-color: #222;
     margin: 20px 0;
 }
 
-
+.ho{
+    background-color: #222;
+    color: rgb(0, 171, 238);
+    padding: 15px 10%;
+    border-radius: 10px;
+}
 
 @media (max-width:1023px){
     *{
@@ -332,7 +337,7 @@ background-color: #222;
         color: yellow;
     }
     section{
-        padding: 10px 10px;
+        padding: 10px 0;
     }
     .sd{
         width: 35%;
@@ -432,7 +437,7 @@ background-color: #222;
     
     .cha{
         background-color: rgb(255, 255, 255);
-        width: 200px;
+        width: 350px;
         height: 300px;
         box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
         border-radius: 10px;
@@ -469,23 +474,24 @@ background-color: #222;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .foot{
-    height: 70px;
-    color: #fff;
-    padding: 25px;
-    justify-content: space-between;
-    display: flex;
-    background-color: #222;
+        height: 70px;
+        color: #fff;
+        padding: 25px;
+        justify-content: space-between;
+        display: flex;
     }
     .links a{
         text-decoration: none;
-        font-size: 16px;
+        font-size: 10px;
         color: rgb(0, 175, 219);
         margin: 8px;
         font-weight: 400;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
     }
     .ssss{
         color: rgb(87, 87, 252);
+        font-size: 8px;
     }
     .links a:hover{
         text-decoration: underline;
@@ -493,6 +499,8 @@ background-color: #222;
     }
     .fop{
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        line-height: 25px;
     }
     
     .dropbtn {
@@ -568,7 +576,7 @@ background-color: #222;
     
     .chaa{
         background-color: rgb(255, 255, 255);
-        width: 100%;
+        width: 90%;
         height: 100%;
         box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
         border-radius: 10px;
